@@ -1,0 +1,569 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    
+}
+html,
+body{
+    width:100%;
+    height: 100%;
+}
+
+#navigation{
+    width: 100%;
+    height: 5%;
+    display: flex;  
+    background-color: transparent;
+    position: fixed;
+}
+#navl{
+    font-size: 20px;
+    /* display:block; */
+    color: rgb(143, 145, 39);
+    font-weight: 400;
+    padding-left: 15px;
+}
+#navc{
+    display: flex;
+    /* margin-right: 200px; */
+    align-items: center;
+    font-size: 10px;
+    justify-content: space-around;
+    text-align:center;
+    padding-left: 500px;
+    color: black;
+    gap:20px;
+}
+#navc h3{
+    font-size: 20px;
+    background-color: transparent;
+    color: #fff;
+}
+#navr{
+    padding-left: 400px;
+    color: black;
+    font-size: 20px;
+    display: flex;
+}
+#navr h6{
+    font-size: 15px;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: transparent; */
+    
+}
+#left{
+    width: 70%;
+    height: 100%;
+    background-color: #275A53; 
+}   
+#left #text{
+    width: 500px;
+    height: 500px;
+    padding-top: 220px;
+    padding-left: 150px;
+    color:#040000;
+}
+#left h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #f3e9e9;
+}
+#left span{
+    color: darkgoldenrod;
+}
+#left h4{
+    color: rgb(249, 245, 245);
+    width: 115px;
+    height: 33px;
+    padding-left: 9px;
+    font-weight: 200;
+    font-size: 23px;
+    display:flex;
+   background-color: rgb(212, 147, 61);
+}
+#left h4 i{
+    width: 30px;
+    height:33px;
+    background-color: #fff;
+    color: #000; 
+}
+#img{
+    height: 470px;
+    width: 660px;
+    background-image: url("./sofa.jpg");
+    background-position: center;
+    background-size: cover;   
+    position: absolute;
+    top: 24%;
+    left: 50%;
+}
+#right{
+    width: 30%;
+    height :100%;
+    background-color: #F6F0E4;
+    padding-top: 9.5%;
+    padding-left: 20%;   
+}
+#right #box{
+    width: 68.5%;
+    height: 18%;
+    background-color: #C0CECE;
+}
+#right h5{
+    color:black;
+    width: 208px;
+    height: 50px;
+    font-weight: 200;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 35px;
+    display:flex;
+    position: absolute;
+    top: 80%;
+    left: 81%;
+   background-color: #fff;
+   gap:40px;  
+}
+#right i{
+    font-size: 55px;
+    margin-top: -29px;
+    margin-bottom: -12px;
+    /* margin-right: 12px; */
+    color: #fff;
+    background-color: gold; 
+}
+#page2{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   background-color:#ffff;
+   padding-top: 50px;
+   position: absolute;
+   top: 100%;
+}
+#img2{
+    height: 90%;
+    width: 30%;
+    background-image: url("./bed.avif");
+    background-position: center;
+    background-size: cover;
+}
+#img3{
+    height: 65%;
+    width: 35%;
+    background-image: url("https://images.unsplash.com/photo-1618221520382-3d68e64f58ff?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+}
+#text2{
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    left: 70%;
+    padding-left: 10px;
+    padding-right: 81px;
+    line-height: 25px;
+}
+#text2 h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #100000;
+}
+#text2 h1 span{
+    color: darkgoldenrod;
+}
+#text2 h5{
+    color: rgb(247, 244, 244);
+    width: 140px;
+    height: 35px;
+    font-weight: 100;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-left: 15px;
+    position: absolute;
+    top: 48%;
+    display:flex;
+   background-color: rgb(212, 147, 61);
+}
+#text2 h5 i{
+    width: 29px;
+    height:30px;
+    color: #000;
+    background-color: #fff;
+    margin-top: -2px;
+    margin-bottom: 1px;
+    padding-left: 6px;
+    padding-top: 7px; 
+}
+#chatbox{
+    width: 580px;
+    height: 230px;
+    background-color: #F6F0E4;
+    position: absolute;
+    margin-top: 33%;
+    left: 27%;
+    letter-spacing: px;
+    line-height: 32px;
+    font-size: 18px;
+    font-size: 400;
+    padding-left: 114px;
+    padding-right: 56px;
+    padding-top: 30px;   
+}
+#chatbox p{
+    top: 50%;
+    height: 20%;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 90px;
+    position: absolute;
+    left: 12%;
+    margin-left: -3px;
+    top: 40px;
+}
+#chatbox #im{
+     border-radius: 50%;
+     background-image: url("https://images.unsplash.com/photo-1698681375999-8faa3e824cd9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyNXxTNE1LTEFzQkI3NHx8ZW58MHx8fHx8");
+     width: 60px;
+     height: 60px;
+     background-position: center;
+     background-size: cover;
+     margin-top:19%;
+}
+#chatbox h5{
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: -45px;
+}
+#chatbox #star{
+    background-image: url("./star.webp");
+    height: 30px;
+    width: 200px;
+    margin-top: -30px;
+    margin-left: 240px;
+    background-size: cover;
+    background-position: center;
+    background-color: #F6F0E4;
+}
+#chatbox h4{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-left: 265px;
+}
+#page3{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   background-color:#ffff;
+   padding-top: 50px;
+   position: absolute;
+   top: 200%;
+}
+#picture{
+         margin-left: 10%;
+         display: flex;
+}
+#picture1{
+    height: 550px;
+    width: 350px;
+    background-image: url("https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww");
+    background-position: center;
+}
+#picture2{
+    height: 400px;
+    width: 250px;
+    background-image: url("https://images.unsplash.com/photo-1615971677499-5467cbab01c0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww");
+    background-position: center;
+    background-size: cover; 
+    margin-top: 8%;
+}
+#picture3{
+    height: 400px;
+    width: 250px;
+    background-image: url("https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww");
+    background-position: center;
+    background-size: cover; 
+    margin-top: 8%;
+}
+#pictext{
+    width: 35%;
+    height: 100%;
+    padding-left: 100px;
+    padding-top: 100px;
+    line-height: 25px;
+}
+#pictext h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #100000;
+}
+#pictext h1 span{
+    color: darkgoldenrod;
+}
+#pictext p{
+    letter-spacing: 1px;
+    line-height: 32px;
+    padding-right: 49px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+#pictext h4{
+    color: rgb(247, 244, 244);
+    width: 140px;
+    height: 35px;
+    font-weight: 100;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-left: 1px;
+    position: absolute;
+    display:flex;
+   background-color: rgb(212, 147, 61);
+}
+#pictext h4 i{
+    width: 29px;
+    height:30px;
+    color: #000;
+    background-color: #fff;
+    margin-top: -2px;
+    margin-bottom: 1px;
+    padding-left: 6px;
+    padding-top: 7px; 
+}
+#page4{
+    width: 100%;
+    height: 100%;
+   background-color:#ffff;
+   padding-top: 50px;
+   position: absolute;
+   top: 300%;
+}
+#pic{
+    background-image: url("https://images.unsplash.com/photo-1606744824163-985d376605aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww");
+    width: 500px;
+    height: 300px;
+    top: 5%;
+    position: relative;
+}
+#draw{
+    width: 500px;
+    height: 200px;
+    margin-top: 2%;
+    margin-right: 10%;
+    background-color: #e0e0db;
+    position: relative;
+}
+#drawtext h1{
+    font-size: 60px;
+    padding-top: 30px;
+    padding-left: 70px;   
+}
+#drawtext h2{
+   font-size: 30px;
+    padding-top: -95px;
+    padding-left: 80px;   
+}
+#drawtext h3 span{
+    font-size: 12px;
+    padding-top: -20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+     justify-content: space-evenly;  
+}
+#drawtext img{
+   width: 50px;
+   height: 60px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+#drawtext hr{
+        font-size: 10px;
+        font-weight: 900;
+        width: 400px;
+        position: relative;
+}
+#drawbox{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(231, 239, 236);
+    left: 45%;
+    top: -495px;
+    position: relative;
+}
+#drawboxtext{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+#drawboxtext h1{
+font-size: 35px;
+}
+#drawboxtext h1 span{
+          color: #275A53;
+}
+#drawboxtext h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+#drawboxtext p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-right: 49px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+#page5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-left: 25%;
+    position: absolute;
+    top: 500%;
+}
+
+#left{
+    width: 25%;
+    height: 65%;
+    background-color: #f5f5f5;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.608);
+    text-align: center;
+}
+
+#img{
+    width: 100%;
+    height: 340px;
+    background-image: url("https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+}
+
+#center{
+    width: 25%;
+    height: 65%;
+    background-color: #f5f5f5;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.608);
+    text-align: center;
+}
+
+#img1{
+    width: 100%;
+    height: 340px;
+    background-image: url("https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+}
+
+#right{
+    width: 25%;
+    height: 65%;
+    background-color: #f5f5f5;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.608);
+    text-align: center;
+}
+
+#img2{
+    width: 100%;
+    height: 340px;
+    background-image: url("https://images.unsplash.com/photo-1502743780242-f10d2ce370f3?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+}
+
+#tarea button{
+    /* padding: 10px 20px; */
+    /* border-radius: 26px; */
+    font-size: 20px;
+    border: 2px solid gray;
+    background-color: whitesmoke;
+
+}
+#tarea button:hover{
+    border: 3px solid #DDB142;
+    margin-bottom: 1px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+#left h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+#left h5{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+#center h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+#center h5{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 7px;
+
+}
+
+#right h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+#right h5{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 7px;
+
+}
+
+#tarea{
+    position: absolute;
+    top: 25%;
+    left: 5%;   
+}
+
+#tarea h1{ 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    
+}
+
+#tarea h2{ 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    color: #275A53;
+}
+
+#tarea h6{ 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.619);
+    margin-top: 15px;
+}
+
+#tarea button{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 23px;
+}
+
